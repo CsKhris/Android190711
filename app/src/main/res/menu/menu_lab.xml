@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu1"
+        android:title="오잉?"/>
+    <item
+        android:id="@+id/menu2"
+        android:title="오이잉?"/>
+    <item
+        android:id="@+id/menu3"
+        android:title="오?">
+        <menu>
+            <item
+                android:id="@+id/sub1"
+                android:title="오오?"/>
+            <item
+                android:id="@+id/sub2"
+                android:title="오오오?"/>
+        </menu>
+    </item>
+</menu>
